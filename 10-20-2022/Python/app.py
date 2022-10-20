@@ -44,16 +44,40 @@ print(no_space('8aaaaa dddd r     '))
 
 #Codewar Kata
 
-# Challenge # 3 -
+# Challenge # 3 - Your task is to find the first element of an array that is not consecutive.
 
-# ENTER CODE HERE
+# By not consecutive we mean not exactly 1 larger than the previous element of the array.
 
+# E.g. If we have an array [1,2,3,4,6,7,8] then 1 then 2 then 3 then 4 are all consecutive but 6 is not, so that's the first non-consecutive number.
+
+# If the whole array is consecutive then return null2.
+
+# The array will always have at least 2 elements1 and all elements will be numbers. The numbers will also all be unique and in ascending order. The numbers could be positive or negative and the first non-consecutive could be either too!
+
+def first_non_consecutive(arr):
+    for x in range(1, len(arr)):
+        if arr[x] - 1 == arr[x-1]:
+            continue
+        else:
+             return arr[x]
+
+    return None
+
+
+
+    
 #Test log
-# print();
-# print();
-# print();
+print(first_non_consecutive([1,2,3,4,6,7,8]))
+print(first_non_consecutive([1,2,3,4,5,6,7,8]))
+print(first_non_consecutive([4,5,6,7,8,9,11]))
 
 # Better method of completing challenge:
+
+# def first_non_consecutive(arr):
+#     if not arr: return 0
+#     for i, x in enumerate(arr[:-1]):
+#         if x + 1 != arr[i + 1]:
+#             return arr[i + 1]
 
 ###############################################################################
     
