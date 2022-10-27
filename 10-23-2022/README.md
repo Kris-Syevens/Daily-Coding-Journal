@@ -1,16 +1,7 @@
-<h1 align="center">Front End Mentor Challenges</h1>
+<h1 align="center">Daily Coding Journal</h1>
 
 <p align="center">
-  This is the GitHub pages hosted repo that contains the individual code base and live link to each Front End Mentor Challenge completed by Kris Syevens.
-      </p>
+This repo is geared towards demonstrating my commitment to continuous learning and software engineering. Here you will find challenges or problems completed from Leetcode and Codewars in various languages.     </p>.
 
-
-## Links
-
-- [Front End Mentor](https://www.frontendmentor.io/home)
-
-
-## Screenshots
-
-![Home Page](front-end-mentor.png)
-
+<p align="center">
+*** The daily coding completed for this day was my Credit-Card-Validator project. Please visit that repo for code review.***   </p>.
