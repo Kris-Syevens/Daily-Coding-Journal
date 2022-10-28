@@ -29,8 +29,6 @@ function generateHashtag(str) {
   }
 }
 
-console.log(generateHashtag("excited mom"));
-
 //Test logs
 // console.log(generateHashtag(""));
 // console.log(generateHashtag(" ".repeat(200)));
@@ -46,33 +44,3 @@ console.log(generateHashtag("excited mom"));
 // );
 
 ////////////////////////////////////////////////////////////////////////
-
-//Codewar Kata
-
-// Challenge # 2 -
-
-// ENTER CODE HERE
-
-//Test log
-// console.log();
-// console.log();
-// console.log();
-
-// Better method of completing challenge:
-
-////////////////////////////////////////////////////////////////////////
-
-//Codewar Kata
-
-// Challenge # 3 -
-
-// ENTER CODE HERE
-
-//Test log
-// console.log();
-// console.log();
-// console.log();
-
-// Better method of completing challenge:
-
-///////////////////////////////////////////////////////////////////////
